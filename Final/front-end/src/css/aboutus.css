@@ -1,0 +1,23 @@
+.about-us-container {
+  /* max-width: 600px; */
+  margin: 0px;
+  padding: 20px;
+}
+
+.mission-section,
+.what-sets-us-apart,
+.contact-section {
+  margin-bottom: 40px;
+}
+
+.contact-section p {
+  margin: 5px 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.about-us-container h2{
+  color: skyblue;  
+}

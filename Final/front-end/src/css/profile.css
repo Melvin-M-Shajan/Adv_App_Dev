@@ -1,0 +1,54 @@
+/* profile.css */
+
+.user-profile-container {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.profile-heading {
+     border: 1px solid red;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    width:800px;
+    height:700px;
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .textarea {
+    resize: vertical; /* Allow vertical resizing */
+  }
+  
+  .save-button,
+  .edit-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button:hover,
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Responsive styling */
+  @media (max-width: 480px) {
+    .user-profile-container {
+      width: 90%;
+    }
+  }
+  

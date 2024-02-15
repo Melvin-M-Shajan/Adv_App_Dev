@@ -1,0 +1,69 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .container h1 {
+    color: #fff;  
+  }
+  
+  .Meet{
+    display:flex ;
+    flex-direction: row;
+    margin-top: 50px;
+  }
+ .No form {
+    margin-bottom: 30px;
+    padding-right: 200px;
+   
+  }
+  .No{
+    margin-right: 500px;
+  }
+  
+  .No label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+ .No input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+ .No button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+ .No button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+
+  
+  p.contact-info {
+    margin-top: 30px;
+    font-size: 16px;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  .about1{
+    margin-top: 0px;
+  }
+
+  
